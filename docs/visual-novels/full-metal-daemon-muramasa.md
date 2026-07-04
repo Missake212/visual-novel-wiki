@@ -23,7 +23,6 @@ title : 'Full Metal Daemon: Muramasa'
 
 ### Steam Deck
 
-
 Same as Linux, but use these settings: 
 * At launch set **Resolution** to **1024x576**
 * In the game overlay set **Scaling Filter** to **Sharp** and **Sharpness** to **5**
