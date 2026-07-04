@@ -7,47 +7,26 @@ title : 'Full Metal Daemon: Muramasa'
 
 ### Linux
 
-> [!info] Requirements
-> Lutris have to be installed and [muramasafiles_lite](https://drive.google.com/file/d/1EF2YSQkTAY6FuIwH-xbSrZF8UNYnYmtA/view?usp=share_link) downloaded.
+#### Lutris 
 
-> [!warning] Warning
-> **muramasafiles_lite** is a repackaged version of these files: [mf-install](https://github.com/z0z0z/mf-install), [mf-installcab](https://github.com/z0z0z/mf-installcab) [XAudio2 (x86)](https://www.nuget.org/packages/Microsoft.XAudio2.Redist/). This **XAudio2 .nupkg** should contain **xaudio2_9redist.dll** in **build\native\debug\bin\x86**. It’s been renamed to **xaudio2_8.dll** for Muramasa (and other visual novels that may use it) specifically.
+> [!info] Information
+> Tested with [Lutris-GE-Proton 11-1](/linux/adding-wine-versions).
 
-Follow these instructions to make movies play.
+* In "Game info", select "Wine" for "Runner"
+* In "Game options", select the proton-ge folder for "Wine prefix" and "yourgame.exe" for "Executable"
+* In "Runner options", select "GE-Proton11-1".
 
-1. Unpack muramasafiles_lite
+#### Steam
 
-You’ll get a folder called mf-install-muramasa. Right click the **mf-install-muramas**a folder and **Copy Location**.
-
-2. Setting up Lutris settings
-Click **+** then **Add locally installed game** with these settings:
-
-* Game info
-  * **Runner**, select **Wine**
-* Game options
-  * **Wine prefix**, make a new vanilla wineprefix folder and set it to that you can name it "muramasaengine" for example
-  * **Wine architecture**, select **64bit**.
-* Runner options
-  * **Wine version**, select the default **Lutris 7.2** version.
-  * Turn on DXVK
-  * Turn off Fsync and Esync
-
-3. Install mf-install.sh in Bash Terminal
-
-Click the Wine bottle on the bottom and click Bash Terminal. Once it’s open, run these commands.
-
-```
-cd <path to the mf-install-muramasa folder>
-sh ./mf-install.sh
-```
-
-Be sure to replace the path with the **mf-install** folder’s path (the folder you did **Copy Location** on)
+* Add the game as a non Steam game
+* Right-click the game → **Properties → Compatibility** → check "Force the use of a specific Steam Play compatibility tool" → select "GE-Proton11-1".
 
 ### Steam Deck
 
-Same as Linux, but set these settings in-game: 
-* **Resolution**: **1024x576**
-* Turn on **FSR** and **Sharpness** to **5**
+
+Same as Linux, but use these settings: 
+* At launch set **Resolution** to **1024x576**
+* In the game overlay set **Scaling Filter** to **Sharp** and **Sharpness** to **5**
 
 ## Controller configuration
 
