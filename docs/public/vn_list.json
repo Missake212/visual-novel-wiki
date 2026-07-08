@@ -849,7 +849,7 @@
     "Game engine": "N2System/N4System",
     "Wineprefix": "proton-ge",
     "Wine version": "Proton GE 11.1",
-    "Notes": "[]"
+    "Notes": "[]",
     "Update Date": "07-04-2026"
   },
   {
@@ -2326,5 +2326,4 @@
     "Notes": "[5], [27]",
     "Update Date": "04-24-2026"
   }
-  
 ]
