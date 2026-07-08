@@ -19,6 +19,7 @@ const vnColumns = [
   { field: 'notes', header: 'Notes' },
   { field: 'game engine', header: 'Game engine', sortable: true },
   { field: 'wine version', header: 'Wine or Proton version', isCode: true },
+  { field: 'update date', header: 'Update Date', sortable: true, isCode: true } // mm-dd-yyyy
 ]
 </script>
 
